@@ -1,0 +1,56 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: #dca500;
+    }
+    
+    .header{
+    min-height: 9vmin;
+    background-color: #ed1919;
+    display: flex;
+    
+    }
+    
+    .projects, .about{
+        margin-right: 10vmin;
+        text-decoration: none;
+        font-size:4vmin; 
+
+    }
+
+    a{
+        color:black; 
+        font-size: 3vmin; 
+    }
+    
+    .links{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo{
+        max-height: 10vmin;
+        margin: 0.5vmin
+    }
+
+    .words{
+        margin-left: 10vmin;
+        
+}
+    
+.box{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+img{
+    max-width: 60%;
+    max-height: 50vmin;
+
+}
